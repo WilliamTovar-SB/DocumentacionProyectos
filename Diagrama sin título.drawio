@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0" version="26.0.6">
   <diagram name="Página-1" id="aNexHRQCDJgL8-BT2yOk">
-    <mxGraphModel>
+    <mxGraphModel dx="1380" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="YvlV-su3k5nC9QYOt2Fn-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YvlV-su3k5nC9QYOt2Fn-4" target="YvlV-su3k5nC9QYOt2Fn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-4" value="Usa Lambda Oauth V2&lt;div&gt;para autenticar&lt;br&gt;&lt;br&gt;Esto pide AppClients de toda la vida&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YvlV-su3k5nC9QYOt2Fn-6" target="YvlV-su3k5nC9QYOt2Fn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-6" value="Valida que las llaves (AppClient) estan en Dynamo (Se tien que crear)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="202.5" width="106.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YvlV-su3k5nC9QYOt2Fn-8" target="YvlV-su3k5nC9QYOt2Fn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-16" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YvlV-su3k5nC9QYOt2Fn-15">
+          <mxGeometry x="-0.4333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YvlV-su3k5nC9QYOt2Fn-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-19" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YvlV-su3k5nC9QYOt2Fn-18">
+          <mxGeometry x="-0.2444" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-8" value="Estan en Dynamo?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-10" value="TEMA OAUTH 2.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-12" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-13" value="El usuario sigue usando las mismas llaves, no se debe dar cuenta que usamos por detras una sola llave oauth&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="610" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YvlV-su3k5nC9QYOt2Fn-14" target="YvlV-su3k5nC9QYOt2Fn-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-14" value="Pido un token oauth 2.0 con las nuevas llaves unicas y dejo un log con el client id que se uso para pedirlas" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="210" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-20" value="Devuelvo mensaje de: Llaves no validas" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YvlV-su3k5nC9QYOt2Fn-21" value="Devuelvo el token Oauth al cliente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
